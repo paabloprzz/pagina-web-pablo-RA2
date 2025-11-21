@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Practica_RA2.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header class="superior">
+        <div class="Cabecera"><a href="./practica_RA2.html"> Cabecera</a></div>
+        <div class="Biografia"><a href="./Biografia.html">Biografia</a></div>
+        <div class="Aficiones"><a href="./aficiones.html">Aficiones</a></div>
+        <div class="Habilidades"><a href="./habilidades.html">Habilidades</a></div>
+        <div class="Contacto"><a href="./contacto.html">Contacto</a></div>
+    </header>
+
+    <div class="Tabla">
+        <form method="get" target="_blank">
+            <fieldset>
+                <legend>Informacion personal</legend>
+                <p>Nombre:<input type="text" name="nombre" required placeholder="Pon tu Nombre"></p>
+                <p>Apellidos:<input type="text" name="apellido" required placeholder="Pon tus apellidos"></p>
+                <p>Año de nacimiento<input type="date" name="fechita"></p>
+                <p>Edad: <input type="number" min="0" max="100"></p>
+                <p>Correo: <input type="email" name="correo"></p>
+                <p>Sexo? <select name="sexo">
+                        <option value="M">Masculino</option>
+                        <option value="F">Femenino</option>
+                        </select></p>
+                <p>Deja un mensaje:<textarea name="mensaje"></textarea></p>
+                <p><input type="button" name="enviar" value="Enviar"></p>
+            
+
+            </fieldset>
+        </form>
+    </div>
+    <footer>
+        <p>Pablo Pérez Lopez</p>
+        <p>1DamB</p>
+    </footer>
+</body>
+
+</html>
